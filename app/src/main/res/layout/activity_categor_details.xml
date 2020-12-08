@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CategorDetailsActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cv_cat_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+<RelativeLayout
+    android:id="@+id/linearcart"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    android:orientation="horizontal">
+
+
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="134dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_toStartOf="@+id/cardView2"
+        android:scrollbarSize="10dp"
+        android:spinnerMode="dropdown"
+       />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_margin="8dp"
+        android:layout_alignParentRight="true"
+        android:elevation="3dp"
+        app:cardCornerRadius="5dp"
+       >
+
+        <Button
+            android:id="@+id/btncart"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn"
+            android:fontFamily="@font/dreamsbold"
+            android:text="Add to cart"
+            android:textColor="#fff"
+            android:textSize="30dp" />
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

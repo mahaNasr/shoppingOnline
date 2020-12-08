@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Shoping Online</string>
+    <string name="title_home">Home</string>
+    <string name="title_categories">Categories</string>
+    <string name="title_cart">Cart</string>
+    <string-array name="Clothing">
+        <item>Size:</item>
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+    </string-array>
+
+    <string-array name="Shoes">
+        <item>Size:</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+    </string-array>
+    <string-array name="other">
+        <item>OS</item>
+    </string-array>
+
+
+</resources>
